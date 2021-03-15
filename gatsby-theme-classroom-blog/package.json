@@ -1,6 +1,6 @@
 {
   "name": "gatsby-theme-classroom-blog",
-  "private": true,
+  "private": false,
   "version": "0.0.1",
   "scripts": {
     "develop": "gatsby develop",
