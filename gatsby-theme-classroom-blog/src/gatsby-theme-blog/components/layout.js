@@ -1,10 +1,10 @@
 import React from "react"
 import { MDXProvider } from "@mdx-js/react"
 import { Hint } from "../../components/hint"
-import { Solution } from "../../components/Solution"
+import { Solution } from "../../components/solution"
 import { TrackedLink } from "../../components/trackedLink"
 import { css, Styled } from "theme-ui"
-import Header from "gatsby-theme-blog/src/components//header"
+import Header from "gatsby-theme-blog/src/components/header"
 import useBlogThemeConfig from "gatsby-theme-blog/src/hooks/configOptions"
 import Helmet from "react-helmet"
 
