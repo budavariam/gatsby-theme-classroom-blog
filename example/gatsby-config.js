@@ -18,7 +18,7 @@ module.exports = {
     author: `Budavári Mátyás`,
     description: `Lesson agenda, slides, homework assignments`,
     language: "en",
-    siteUrl: "https://budavariam.github.io/gatsby-theme-classroom-blog-example",
+    siteUrl: "https://budavariam.github.io/gatsby-theme-classroom-blog",
     social: [
       {
         name: `twitter`,
