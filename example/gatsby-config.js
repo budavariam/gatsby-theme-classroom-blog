@@ -11,7 +11,7 @@ module.exports = {
     //   },
     // },
   ],
-  pathPrefix: `/gatsby-theme-classroom-blog-example`,
+  pathPrefix: `/gatsby-theme-classroom-blog`,
   // Customize your site metadata:
   siteMetadata: {
     title: `Example Site`,
