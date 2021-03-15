@@ -1,3 +1,22 @@
+# Gatsby theme classroom blog
+
+## Getting started
+
+```bash
+yarn
+yarn workspace example develop
+```
+
+## Publish
+
+```bash
+cd gatsby-theme-classroom-blog
+npm login
+npm publish
+```
+
+## Original README
+
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />

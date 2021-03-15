@@ -1,6 +1,5 @@
-# Gatsby Theme Minimal Example
+# Gatsby Theme Classroom Blog Example
 
 A usage of
-[gatsby-theme-minimal](https://github.com/ChristopherBiscardi/gatsby-theme-minimal)
-that does nothing but use the theme. As a result you will see `Error: Missing resources for /` when navigating to `http://localhost:8000`. To get
-rid of that, create a page in `src/pages/index.js`.
+[gatsby-theme-classroom-blog](https://github.com/budavariam/gatsby-theme-classroom-blog)
+that does nothing but use the theme.
