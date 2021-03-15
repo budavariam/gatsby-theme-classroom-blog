@@ -1,4 +1,4 @@
-import { useStaticQuery } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import React, { useState } from "react"
 import { css } from "theme-ui"
 
