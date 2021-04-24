@@ -16,6 +16,9 @@ module.exports = {
   siteMetadata: {
     title: `Example Site`,
     author: `Budavári Mátyás`,
+    hasSlides: true,
+    hasCourseInfo: true,
+    hasCheatsheet: true,
     description: `Lesson agenda, slides, homework assignments`,
     language: "en",
     siteUrl: "https://budavariam.github.io/gatsby-theme-classroom-blog",

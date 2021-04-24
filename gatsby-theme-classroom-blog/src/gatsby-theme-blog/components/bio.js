@@ -15,7 +15,12 @@ const Bio = () => {
   const data = useStaticQuery(bioQuery)
   const {
     site: {
-      siteMetadata: { author },
+      siteMetadata: {
+        author,
+        hasSlides,
+        hasCourseInfo,
+        hasCheatsheet
+      },
     },
     avatar,
   } = data
@@ -46,8 +51,12 @@ const Bio = () => {
           role="presentation"
         />
       )}
-      <div style={{ display: "flex", justifyContent: "space-evenly", width: "100%"}}>
-        <BioContent />
+      <div style={{ display: "flex", justifyContent: "space-evenly", width: "100%" }}>
+        <BioContent
+          hasSlides={hasSlides}
+          hasCourseInfo={hasCourseInfo}
+          hasCheatsheet={hasCheatsheet}
+        />
       </div>
     </Flex>
   )
@@ -57,7 +66,10 @@ const bioQuery = graphql`
   query BioQuery2 {
     site {
       siteMetadata {
-        author
+        author,
+        hasSlides,
+        hasCourseInfo,
+        hasCheatsheet
       }
     }
     avatar: file(absolutePath: { regex: "/avatar.(jpeg|jpg|gif|png)/" }) {

@@ -15,7 +15,9 @@ module.exports = {
     title: `Title`,
     author: `Your Name`,
     description: `Site description`,
-    language: "en",
+    hasSlides: true,
+    hasCourseInfo: true,
+    hasCheatsheet: true,
     siteUrl: "https://example.com",
     social: [
       // {
