@@ -1,5 +1,6 @@
 import React from "react"
 import { css, Styled } from "theme-ui"
+import { Trans } from 'react-i18next'
 
 export const Solution = ({ children, isVisible = true }) => {
     return isVisible
@@ -8,7 +9,9 @@ export const Solution = ({ children, isVisible = true }) => {
                 <summary css={css`
                     outline: none;
                     cursor: pointer;
-                `}>Solution</summary>
+                `}>
+                    <Trans i18nKey="component.solution.label" ns="theme" />
+                </summary>
                 {children}
             </details>
         </Styled.div>

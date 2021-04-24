@@ -1,33 +1,17 @@
-import { useStaticQuery, graphql } from "gatsby"
 import React, { useState } from "react"
 import { css } from "theme-ui"
+import { Trans } from 'react-i18next'
 
 export const Hint = ({ children }) => {
-    const data = useStaticQuery(hintQuery)
-    const {
-        site: {
-            siteMetadata: { language },
-        },
-    } = data
-
-    const [isVisible, setIsVisible] = useState(false)
-    const text = language === "en" ? "Hint" : "Segítség"
-    return !isVisible
-        ? <button css={css({ backgroundColor: `highlight`, color: `secondary` })} style={{
-            borderRadius: `0.3em`,
-            paddingTop: `0.15em`,
-            paddingBottom: `0.05em`,
-            paddingX: `0.2em`,
-        }} onClick={() => { setIsVisible(true) }}>{text}</button>
-        : <span> {children} </span>
+  const [isVisible, setIsVisible] = useState(false)
+  return !isVisible
+    ? <button css={css({ backgroundColor: `highlight`, color: `secondary` })} style={{
+      borderRadius: `0.3em`,
+      paddingTop: `0.15em`,
+      paddingBottom: `0.05em`,
+      paddingX: `0.2em`,
+    }} onClick={() => { setIsVisible(true) }}>
+      <Trans i18nKey="component.hint.label" ns="theme" />
+    </button>
+    : <span> {children} </span>
 }
-
-const hintQuery = graphql`
-  query HintQuery {
-    site {
-      siteMetadata {
-        language
-      }
-    }
-  }
-`

@@ -18,8 +18,10 @@
     "gatsby-plugin-google-gtag": "^2.1.13",
     "gatsby-plugin-mdx": "^1.2.22",
     "gatsby-theme-blog": "^1.6.51",
+    "i18next": "^20.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-i18next": "^11.8.13",
     "theme-ui": "^0.2.52",
     "typography-theme-wordpress-2016": "^0.16.19"
   }
