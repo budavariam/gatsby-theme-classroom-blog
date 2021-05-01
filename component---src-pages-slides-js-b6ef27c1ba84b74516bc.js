@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{uGWh:function(t,e,i){"use strict";i.r(e);i("q1tI");var n=i("qKvR");e.default=function(){return Object(n.c)("div",{style:{width:"100vw",height:"100vh",display:"flex",justifyContent:"center",alignItems:"center"}},"Make sure this location points to your slides in your desired way")}}}]);
+//# sourceMappingURL=component---src-pages-slides-js-b6ef27c1ba84b74516bc.js.map
