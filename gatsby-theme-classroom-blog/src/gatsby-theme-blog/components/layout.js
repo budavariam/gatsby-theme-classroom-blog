@@ -3,6 +3,7 @@ import { MDXProvider } from "@mdx-js/react"
 import { Hint } from "../../components/hint"
 import { Solution } from "../../components/solution"
 import { TrackedLink } from "../../components/trackedLink"
+import { Image } from "../../components/image"
 import { withTrans } from "../../i18n/withTrans"
 import { css, Styled } from "theme-ui"
 import Header from "gatsby-theme-blog/src/components/header"
@@ -35,7 +36,7 @@ const Layout = withTrans(({ children, ...props }) => {
   )
 })
 
-const shortcodes = { Hint, TrackedLink, Solution }
+const shortcodes = { Hint, TrackedLink, Solution, Image }
 
 export default ({ children, ...props }) => {
   return <MDXProvider components={shortcodes}>
